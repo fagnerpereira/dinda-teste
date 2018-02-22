@@ -63,5 +63,6 @@ class GitClient
   end
 end
 
-git_client = GitClient.new('c59c8b7972c4f66914c59a6b35f649f64d2e0256', 'braspag-rest', 'Dinda-com-br')
+access_token = ''
+git_client = GitClient.new(access_token, 'braspag-rest', 'Dinda-com-br')
 git_client.generate_txt
